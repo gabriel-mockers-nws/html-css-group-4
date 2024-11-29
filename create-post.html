@@ -7,8 +7,8 @@
   </head>
   <body>
     <header>
-      <div class="head-title-form">
-        <h1>Vos suggestions</h1>
+      <div class="main-title">
+        <h1>SoundSpire</h1>
       </div>
       <nav class="header-nav">
         <ul>
@@ -19,50 +19,55 @@
         </ul>
       </nav>
     </header>
+    <div class="head-title-form">
+      <h2>Vos suggestions</h2>
+    </div>
     <section class="formulaie">
-      <div class="nom">
-        <label for="nom">Nom</label>
-        <input
-          type="text"
-          maxlength="10"
-          id="prenon"
-          required
-          placeholder="Votre nom"
-        />
-      </div>
-      <div class="prenom">
-        <label for="prenom">Prénom</label>
-        <input
-          type="text"
-          maxlength="10"
-          id="prenon"
-          required
-          placeholder="Votre prénom"
-        />
-      </div>
-      <div class="mail">
-        <label for="adresse">Adresse email</label>
-        <input
-          type="email"
-          maxlength="30"
-          required
-          placeholder="Votre e-mail"
-        />
-      </div>
-      <div class="message">
-        <label for="message">Votre message</label>
-        <textarea
-          name="message"
-          id="message"
-          maxlength="100"
-          required
-          placeholder="Votre message(max 100 charactères)"
-        ></textarea>
-      </div>
-      <div class="buttons">
-        <button type="submit">Envoyer</button>
-        <button type="reset">Effacer</button>
-      </div>
+      <form action="admin.html" method="get">
+        <div class="nom">
+          <label for="nom">Nom</label>
+          <input
+            type="text"
+            maxlength="10"
+            id="prenon"
+            required
+            placeholder="Votre nom"
+          />
+        </div>
+        <div class="prenom">
+          <label for="prenom">Prénom</label>
+          <input
+            type="text"
+            maxlength="10"
+            id="prenon"
+            required
+            placeholder="Votre prénom"
+          />
+        </div>
+        <div class="mail">
+          <label for="adresse">Adresse email</label>
+          <input
+            type="email"
+            maxlength="30"
+            required
+            placeholder="Votre e-mail"
+          />
+        </div>
+        <div class="message">
+          <label for="message">Votre message</label>
+          <textarea
+            name="message"
+            id="message"
+            maxlength="100"
+            required
+            placeholder="Votre message(max 100 charactères)"
+          ></textarea>
+        </div>
+        <div class="buttons">
+          <button type="submit">Envoyer</button>
+          <button type="reset">Effacer</button>
+        </div>
+      </form>
     </section>
   </body>
 </html>
