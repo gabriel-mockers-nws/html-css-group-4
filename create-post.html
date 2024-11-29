@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire de suggestions</title>
+  </head>
+  <body>
+    <header>
+      <div class="head-title-form">
+        <h1>Vos suggestions</h1>
+      </div>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="index.html">Retour à l'acceuil</a></li>
+          <li><a href="page-post.html">Voir les posts</a></li>
+          <li><a href="admin.html">Page admin</a></li>
+          <li><a href="detail-post.html">Voir le post</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="formulaie">
+      <div class="nom">
+        <label for="nom">Nom</label>
+        <input
+          type="text"
+          maxlength="10"
+          id="prenon"
+          required
+          placeholder="Votre nom"
+        />
+      </div>
+      <div class="prenom">
+        <label for="prenom">Prénom</label>
+        <input
+          type="text"
+          maxlength="10"
+          id="prenon"
+          required
+          placeholder="Votre prénom"
+        />
+      </div>
+      <div class="mail">
+        <label for="adresse">Adresse email</label>
+        <input
+          type="email"
+          maxlength="30"
+          required
+          placeholder="Votre e-mail"
+        />
+      </div>
+      <div class="message">
+        <label for="message">Votre message</label>
+        <textarea
+          name="message"
+          id="message"
+          maxlength="100"
+          required
+          placeholder="Votre message(max 100 charactères)"
+        ></textarea>
+      </div>
+      <div class="buttons">
+        <button type="submit">Envoyer</button>
+        <button type="reset">Effacer</button>
+      </div>
+    </section>
+  </body>
+</html>
