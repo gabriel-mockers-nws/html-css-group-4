@@ -197,8 +197,22 @@
 
 
 
+.columns {
+  max-width: 980px;
+  margin-inline: auto;
+}
+.columns {
+    display: flex;
+    gap: 50px;
+    align-items:center;
+}
 
 
+
+.img1 {
+  width : 100%; 
+  min-width : 600px;
+  }
 
 
 
