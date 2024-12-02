@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-evenly;
   height: 100px;
+  list-style-type: none;
 }
 
 .header-nav a {
