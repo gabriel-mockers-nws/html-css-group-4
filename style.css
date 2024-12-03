@@ -149,6 +149,13 @@ form button:hover {
   margin: 20px auto;
   padding: 20px;
 }
+.box{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  max-width: 960px;
+  margin-inline: auto;
+}
 
 * {
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
