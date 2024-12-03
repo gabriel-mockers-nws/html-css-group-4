@@ -16,7 +16,7 @@
   color: orange;
 }
 
-.columns {
+.column {
   max-width: 980px;
   margin-inline: auto;
 }
