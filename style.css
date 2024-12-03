@@ -50,6 +50,7 @@
 
 .header-logo-nav {
   display: flex;
+  align-content: center;
 }
 
 .column-reco {
