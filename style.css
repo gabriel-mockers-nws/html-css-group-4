@@ -48,6 +48,10 @@
   color: #f4a261;
 }
 
+.header-logo-nav {
+  display: flex;
+}
+
 .column-reco {
   max-width: 980px;
   margin-inline: auto;
