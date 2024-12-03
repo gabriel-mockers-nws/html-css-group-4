@@ -1,3 +1,17 @@
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 900;
+  font-size: 2rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-logo span {
+  color: #f4a261;
+}
+
 .header-nav ul {
   width: 100%;
   display: flex;
@@ -34,7 +48,7 @@
   color: orange;
 }
 
-.column {
+/* .column {
   max-width: 980px;
   margin-inline: auto;
 }
@@ -42,11 +56,44 @@
   display: flex;
   gap: 50px;
   align-items: center;
-}
+} */
 
 .img1 {
   width: 100%;
   min-width: 600px;
+}
+
+.teaser {
+}
+
+.teaser-title {
+}
+
+.teaser-image {
+  width: 300px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.teaser-excerpt {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.teaser-link {
+}
+
+/* Layout */
+.columns {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.columns > * {
+  flex: 1;
 }
 
 /* Formulaire */
@@ -92,7 +139,7 @@ form button:hover {
   transform: scale(1.1);
 }
 
-section {
+.container {
   max-width: 960px;
   margin: 20px auto;
   padding: 20px;
