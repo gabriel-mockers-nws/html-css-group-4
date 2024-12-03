@@ -48,15 +48,15 @@
   color: orange;
 }
 
-/* .column {
+.column-reco {
   max-width: 980px;
   margin-inline: auto;
 }
-.columns {
+.columns-reco {
   display: flex;
   gap: 50px;
   align-items: center;
-} */
+}
 
 .img1 {
   width: 100%;
