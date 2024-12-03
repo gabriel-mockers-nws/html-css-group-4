@@ -34,7 +34,7 @@
   color: orange;
 }
 
-.columns {
+.column {
   max-width: 980px;
   margin-inline: auto;
 }
@@ -102,4 +102,8 @@ section {
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
+}
+
+.w-100 {
+  width: 100%;
 }
