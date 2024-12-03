@@ -13,8 +13,8 @@
           icon: "success",
           title: "Votre inscription est validée",
           showConfirmButton: false,
-          timer: 1500
-      })
+          timer: 1500,
+        });
       }
     </script>
   </head>
@@ -29,11 +29,12 @@
           <li><a href="page-post.html">Voir les posts</a></li>
           <li><a href="admin.html">Page admin</a></li>
           <li><a href="recommandations.html">Nos recommandations</a></li>
+          <li><a href="inscription.html">Inscrivez-vous</a></li>
         </ul>
       </nav>
     </header>
     <div class="head-title-form">
-      <h2>Vos suggestions</h2>
+      <h2>Inscription</h2>
     </div>
     <section class="formulaie">
       <form action="admin.html" method="get">
@@ -47,6 +48,7 @@
             placeholder="Votre nom"
           />
         </div>
+        <div>
         <div class="prenom">
           <label for="prenom">Prénom</label>
           <input
@@ -57,6 +59,16 @@
             placeholder="Votre prénom"
           />
         </div>
+          <div class="pseudo">
+            <label for="pseudo">Pseudo</label>
+            <input
+              type="text"
+              maxlength="15"
+              id="pseudo"
+              required
+              placeholder="Votre Pseudo"
+            />
+        </div>
         <div class="mail">
           <label for="adresse">Adresse email</label>
           <input
@@ -66,16 +78,16 @@
             placeholder="Votre e-mail"
           />
         </div>
-        <div class="message">
-          <label for="message">Votre message</label>
-          <textarea
-            name="message"
-            id="message"
-            maxlength="100"
-            required
-            placeholder="Votre message(max 100 charactères)"
-          ></textarea>
-        </div>
+        <div class="password">
+          <label for="password">Mot de passe</label>
+          <input
+          type="password"
+          maxlength="50"
+          id="mail"
+          required
+          placeholder="Votre mot de passe"
+          />
+          <br> <br>
         <div class="buttons">
           <button type="submit" onclick="displayAlert()">Envoyer</button>
           <button type="reset">Effacer</button>
