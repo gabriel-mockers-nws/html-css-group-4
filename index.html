@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
     <title>SoundSpire</title>
   </head>
   <body>
     <header>
-      <div class="header-logo-nav">
+      <div class="header-container">
         <a href="/" class="header-logo">
           <img src="images/logo.png" alt="Logo SoundSpire" height="65" />
           <div>Sound<span>Spire</span></div>
@@ -22,6 +23,9 @@
             <li><a href="inscription.html">Inscrivez-vous</a></li>
           </ul>
         </nav>
+        <div class="dark-mode-switch" onclick="toggleDarkMode()">
+          <div class="switch-circle"></div>
+        </div>
       </div>
       <img
         class="w-100"
