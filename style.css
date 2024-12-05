@@ -86,7 +86,6 @@
 .teaser-index {
   background-color: #efbb91;
   padding: 20px;
-  filter: drop-shadow(0 0 0.5rem rgb(0, 0, 0));
 }
 
 /* Layout */
@@ -106,6 +105,8 @@ form {
   padding: 50px;
   border-radius: 15px;
   filter: drop-shadow(0 0 0.2rem rgb(0, 0, 0));
+  width: 45%;
+  margin: 50px auto;
 }
 
 form div {
@@ -170,32 +171,145 @@ form button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px;
 }
 
-/*.zoom {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.zoom :hover {
-	-webkit-transform: scale(1.3);
-	transform: scale(1.3);
-}*/
+
+
 
 .zoom {
   display: inline-block;
-  overflow: hidden; /* Empêche l'image de déborder lors du zoom */
+
 }
 
 .zoom img {
-  width: 100%; /* L'image prend toute la largeur du conteneur */
+  width: 300px; /* L'image prend toute la largeur du conteneur */
   height: auto; /* Maintient les proportions de l'image */
   transform: scale(1); /* État initial : image à sa taille normale */
   transition: transform 0.3s ease-in-out; /* Animation fluide lors du zoom */
 }
 
 .zoom:hover img {
-  transform: scale(1.3); /* Zoom sur l'image au survol */
+  transform: scale(1.1); /* Zoom sur l'image au survol */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
