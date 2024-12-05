@@ -81,6 +81,11 @@
   overflow: hidden;
 }
 
+.teaser-index {
+  background-color: #efbb91;
+  padding: 20px;
+}
+
 /* Layout */
 .columns {
   display: flex;
@@ -169,37 +174,6 @@ form button:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .zoom {
   display: inline-block;
 
@@ -215,6 +189,10 @@ form button:hover {
 .zoom:hover img {
   transform: scale(1.1); /* Zoom sur l'image au survol */
 }
+
+
+
+
 
 
 
