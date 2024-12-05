@@ -13,11 +13,13 @@
 }
 
 .header-nav ul {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   justify-content: space-evenly;
-  height: 100px;
+  /* height: 100px; */
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 /*.header-nav ul {
