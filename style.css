@@ -176,7 +176,7 @@ form button:hover {
 
 .zoom img {
   width: 300px; /* L'image prend toute la largeur du conteneur */
-  height: 300px; /* Maintient les proportions de l'image */
+  height: auto; /* Maintient les proportions de l'image */
   transform: scale(1); /* État initial : image à sa taille normale */
   transition: transform 0.3s ease-in-out; /* Animation fluide lors du zoom */
   margin: 25px
