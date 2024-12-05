@@ -68,12 +68,6 @@
   min-width: 600px;
 }
 
-.teaser {
-}
-
-.teaser-title {
-}
-
 .teaser-image {
   width: 300px;
   aspect-ratio: 1/1;
@@ -85,9 +79,6 @@
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
-}
-
-.teaser-link {
 }
 
 /* Layout */
@@ -149,7 +140,7 @@ form button:hover {
   margin: 20px auto;
   padding: 20px;
 }
-.box{
+.box {
   display: flex;
   gap: 50px;
   align-items: center;
@@ -165,4 +156,10 @@ form button:hover {
 
 .w-100 {
   width: 100%;
+}
+
+.cartes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
