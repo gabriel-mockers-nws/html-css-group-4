@@ -85,6 +85,7 @@
 .teaser-index {
   background-color: #efbb91;
   padding: 20px;
+  filter: drop-shadow(0 0 0.5rem rgb(0, 0, 0));
 }
 
 /* Layout */
