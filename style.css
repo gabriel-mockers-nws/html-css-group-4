@@ -82,6 +82,11 @@
   overflow: hidden;
 }
 
+.teaser-index {
+  background-color: #efbb91;
+  padding: 20px;
+}
+
 /* Layout */
 .columns {
   display: flex;
@@ -163,4 +168,5 @@ form button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 40px;
 }
