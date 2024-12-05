@@ -249,3 +249,19 @@ form button:hover {
 .zoom:hover img {
   transform: scale(1.1); /* Zoom sur l'image au survol */
 }
+
+.btn-reco {
+  background-color: #f4a261;
+  color: white;
+  padding: 12px 20px;
+  border: 2px solid #f4a261;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-reco a {
+  text-decoration: none;
+  color: #e6e8ea;
+}
