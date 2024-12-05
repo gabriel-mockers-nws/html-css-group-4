@@ -76,6 +76,48 @@ body.dark-mode .header-nav a {
 .header-nav a:hover {
   color: #f4a261;
 }
+/* Bouton switch Mode Sombre */
+.dark-mode-switch {
+  width: 30px;
+  height: 15px;
+  background-color: #f4a261;
+  border-radius: 30px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px;
+  transition: background-color 0.3s ease;
+}
+
+body.dark-mode .dark-mode-switch {
+  background-color: #e0e0e0;
+}
+
+.switch-circle {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  left: 5px;
+  transition: left 0.3s ease;
+}
+
+body.dark-mode .switch-circle {
+  left: 20px;
+}
+
+/* Bannière (ne change pas) */
+.w-100 {
+  width: 100%;
+  height: auto;
+}
+
+h3 {
+  color: #f4a261;
+}
 
 /*.column-reco {
   max-width: 980px;
