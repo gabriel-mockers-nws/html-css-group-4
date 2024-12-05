@@ -179,7 +179,7 @@ form button:hover {
   height: auto; /* Maintient les proportions de l'image */
   transform: scale(1); /* État initial : image à sa taille normale */
   transition: transform 0.3s ease-in-out; /* Animation fluide lors du zoom */
-  margin: 25px
+  margin: 25px;
 }
 
 .zoom:hover img {
