@@ -14,6 +14,10 @@ body.dark-mode {
   color: #e6e8ea;
 }
 
+/*.formulaie {
+  color: black !important;
+}/*
+
 /* Header */
 header {
   background-color: #e6e8ea;
@@ -116,7 +120,7 @@ body.dark-mode .switch-circle {
 }
 
 h3 {
-  color: #f4a261;
+  color: #000000;
 }
 
 /*.column-reco {
