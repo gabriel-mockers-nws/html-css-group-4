@@ -1,11 +1,51 @@
+body {
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color: #3a3a3a;
+  color: #e6e8ea;
+}
+
+/* Header */
+header {
+  background-color: #e6e8ea;
+  transition: background-color 0.3s ease;
+  margin: -20px;
+}
+
+body.dark-mode header {
+  background-color: #2a2a2a;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
 .header-logo {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 10px;
   font-weight: 900;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-decoration: none;
   color: inherit;
+}
+
+.header-logo img {
+  max-height: 50px;
+  width: auto;
+  display: block;
 }
 
 .header-logo span {
@@ -13,46 +53,28 @@
 }
 
 .header-nav ul {
-  /* width: 100%; */
   display: flex;
-  justify-content: space-evenly;
-  /* height: 100px; */
-  list-style-type: none;
+  gap: 20px;
+  list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/*.header-nav ul {
-  list-style: none; 
-  margin: 0;
-  padding: 0;
-  display: flex; 
-  gap: 30px; 
-}*/
-
 .header-nav a {
   text-decoration: none;
-  color: inherit;
+  color: black;
   font-size: 16px;
   font-weight: 600;
   padding: 5px 10px;
   transition: color 0.3s ease;
-  position: relative; /* Nécessaire pour la ligne animée */
 }
 
-.header-nav a {
-  color: black;
-  text-decoration: underline;
+body.dark-mode .header-nav a {
+  color: #e0e0e0;
 }
 
 .header-nav a:hover {
-  text-decoration: none;
   color: #f4a261;
-}
-
-.header-logo-nav {
-  display: flex;
-  align-content: center;
 }
 
 /*.column-reco {
@@ -179,7 +201,7 @@ form button:hover {
   height: auto; /* Maintient les proportions de l'image */
   transform: scale(1); /* État initial : image à sa taille normale */
   transition: transform 0.3s ease-in-out; /* Animation fluide lors du zoom */
-  margin: 25px
+  margin: 25px;
 }
 
 .zoom:hover img {
