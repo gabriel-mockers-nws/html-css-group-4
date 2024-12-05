@@ -23,6 +23,7 @@ header {
   background-color: #e6e8ea;
   transition: background-color 0.3s ease;
   margin: -20px;
+  position: relative;
 }
 
 body.dark-mode header {
@@ -255,6 +256,7 @@ form button:hover {
 }
 
 .btn-reco {
+  position: absolute;
   background-color: #f4a261;
   color: white;
   padding: 12px 20px;
@@ -268,4 +270,13 @@ form button:hover {
 .btn-reco a {
   text-decoration: none;
   color: #e6e8ea;
+}
+
+.zooms button {
+  transition: transform 0.3s ease-in-out; /* Animation fluide lors du zoom */
+  margin: 25px;
+}
+
+.zooms:hover button {
+  transform: scale(1.1); /* Zoom sur l'image au survol */
 }
