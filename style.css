@@ -263,8 +263,6 @@ form button:hover {
 }
 
 .btn-reco {
-  display: block;
-  position: relative;
   margin-top: 2rem;
   background-color: #f4a261;
   color: white;
