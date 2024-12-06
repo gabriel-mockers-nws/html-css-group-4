@@ -263,7 +263,6 @@ form button:hover {
 }
 
 .btn-reco {
-  position: absolute;
   background-color: #f4a261;
   color: white;
   padding: 9px 15px;
@@ -302,6 +301,12 @@ form button:hover {
 
 .zooms:hover {
   transform: scale(1.1); /* Zoom sur l'image au survol */
+}
+
+.button-container {
+  display: flex; /* Permet d'afficher les enfants côte à côte */
+  gap: 10px; /* Espacement entre les boutons */
+  justify-content: flex-start; /* Centrer les boutons horizontalement */
 }
 
 .article-title {
