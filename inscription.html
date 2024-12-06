@@ -14,8 +14,8 @@
           icon: "success",
           title: "Votre inscription est validée",
           showConfirmButton: false,
-          timer: 1500
-      })
+          timer: 1500,
+        });
       }
     </script>
   </head>
@@ -50,31 +50,30 @@
           <input
             type="text"
             maxlength="10"
-            id="prenon"
+            id="nom"
             required
             placeholder="Votre nom"
           />
         </div>
-        <div>
         <div class="prenom">
           <label for="prenom">Prénom</label>
           <input
             type="text"
             maxlength="10"
-            id="prenon"
+            id="prenom"
             required
             placeholder="Votre prénom"
           />
         </div>
-          <div class="pseudo">
-            <label for="pseudo">Pseudo</label>
-            <input
-              type="text"
-              maxlength="15"
-              id="pseudo"
-              required
-              placeholder="Votre Pseudo"
-            />
+        <div class="pseudo">
+          <label for="pseudo">Pseudo</label>
+          <input
+            type="text"
+            maxlength="15"
+            id="pseudo"
+            required
+            placeholder="Votre Pseudo"
+          />
         </div>
 
         <div class="mail">
@@ -82,6 +81,7 @@
           <input
             type="email"
             maxlength="30"
+            id="adresse"
             required
             placeholder="Votre e-mail"
           />
@@ -89,13 +89,15 @@
         <div class="password">
           <label for="password">Mot de passe</label>
           <input
-          type="password"
-          maxlength="50"
-          id="mail"
-          required
-          placeholder="Votre mot de passe"
+            type="password"
+            maxlength="50"
+            id="password"
+            required
+            placeholder="Votre mot de passe"
           />
-          <br> <br>
+        </div>
+        <br />
+        <br />
         <div class="buttons">
           <button type="submit" onclick="displayAlert()">Envoyer</button>
           <button type="reset">Effacer</button>
