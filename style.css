@@ -280,7 +280,7 @@ form button:hover {
 }
 
 .btn-btn-teaser-link {
-  position: absolute;
+  position: relative;
   background-color: #f4a261;
   color: white;
   padding: 9px 15px;
