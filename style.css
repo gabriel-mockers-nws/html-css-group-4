@@ -149,7 +149,7 @@ h3 {
 
 .teaser-excerpt {
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -263,7 +263,6 @@ form button:hover {
 }
 
 .btn-reco {
-  position: absolute;
   background-color: #f4a261;
   color: white;
   padding: 9px 15px;
@@ -304,12 +303,19 @@ form button:hover {
   transform: scale(1.1); /* Zoom sur l'image au survol */
 }
 
+.button-container {
+  display: flex; /* Permet d'afficher les enfants côte à côte */
+  gap: 10px; /* Espacement entre les boutons */
+  justify-content: flex-start; /* Centrer les boutons horizontalement */
+}
+
 .article-title {
   font-size: 30px;
 }
 
 .article-title,
-.art-pic1 {
+.art-pic1,
+.article-subtitle {
   text-align: center;
-  margin: 50px;
+  margin: 40px;
 }
