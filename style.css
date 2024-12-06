@@ -283,3 +283,13 @@ form button:hover {
 .zooms:hover {
   transform: scale(1.1); /* Zoom sur l'image au survol */
 }
+
+.article-title {
+  font-size: 30px;
+}
+
+.article-title,
+.art-pic1 {
+  text-align: center;
+  margin: 50px;
+}
