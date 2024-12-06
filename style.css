@@ -309,7 +309,8 @@ form button:hover {
 }
 
 .article-title,
-.art-pic1 {
+.art-pic1,
+.article-subtitle {
   text-align: center;
-  margin: 50px;
+  margin: 40px;
 }
