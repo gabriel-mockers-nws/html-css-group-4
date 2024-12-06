@@ -149,7 +149,7 @@ h3 {
 
 .teaser-excerpt {
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -314,7 +314,8 @@ form button:hover {
 }
 
 .article-title,
-.art-pic1 {
+.art-pic1,
+.article-subtitle {
   text-align: center;
-  margin: 50px;
+  margin: 40px;
 }
