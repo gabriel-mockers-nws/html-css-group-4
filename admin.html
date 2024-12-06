@@ -5,14 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-    <script>
-      function supprimerPost(postId) {
-        var postElement = document.getElementById(postId);
-        if (postElement) {
-          postElement.remove(); // Supprime l'élément du DOM
-        }
-      }
-    </script>
     <title>Document</title>
   </head>
   <body>
@@ -39,30 +31,20 @@
     <section>
       <div class="container">
         <h2 class="article-title">Les posts</h2>
-        <article class="teaser" id="post1">
-          <h3 class="teaser-title">
+
+        <article class="teaser box" id="post1">
+          <div class="container">
+          <h2 class="teaser-title">
             Shaka Ponk tire sa révérence avec deux concerts inoubliables
-          </h3>
-          <img
-            class="teaser-image"
-            src="detail-post-list/Shakaponk.webp"
-            height="300"
-            alt=""
-          />
-          <p class="teaser-excerpt">
-            Ce vendredi 29 et samedi 30 novembre 2024 marqueront à jamais
-            l’histoire de la musique. Shaka Ponk, groupe emblématique de la
-            scène rock électro française, a offert ses deux derniers concerts,
-            mettant ainsi fin à une carrière légendaire qui aura duré près de
-            deux décennies.
-          </p>
-          <div class="btn-teaser-link">
-            <button class="btn-btn-teaser-link ; zooms">
-              <a class="teaser-link" href="#"
+          </h2>
+          </div>
+          <div class="btn-teaser-link container">
+            <button class="btn-reco ; zooms">
+              <a class="teaser-link" href="detail-post-list/detail-post.html"
                 >Modifier le post</a
               >
             </button>
-            <button class="btn-btn-teaser-link ; zooms" onclick="supprimerPost('post1')">
+            <button class="btn-reco ; zooms" onclick="supprimerPost('post1')">
               <a class="teaser-link" href="#"
                 >Supprimer le post</a
               >
@@ -70,98 +52,60 @@
           </div>
         </article>
 
-        <article class="teaser" id="post2">
-          <h3 class="teaser-title">
+        <article class="teaser box" id="post2">
+          <div class="container">
+          <h2 class="teaser-title">
             La Perte de Vue d'Elton John : Un Nouveau Chapitre de Sa Vie
-          </h3>
-          <img
-            class="teaser-image"
-            src="detail-post-list/elton-john.jpg"
-            height="300"
-            alt=""
-          />
-          <p class="teaser-excerpt">
-            Sir Elton John, l'iconique chanteur, compositeur et pianiste
-            britannique, a récemment fait part d'une nouvelle qui a bouleversé
-            ses fans du monde entier : il souffre d'une perte progressive de la
-            vue. Cette annonce, faite lors de ses concerts et dans ses
-            interviews, marque un tournant dans la vie de l'artiste de 76 ans.
-            Bien que cette nouvelle ait suscité de l’inquiétude chez ses
-            admirateurs, elle témoigne également de sa résilience et de sa
-            détermination à continuer à vivre pleinement, tout en s'adaptant à
-            de nouveaux défis.
-          </p>
-          <div class="btn-teaser-link">
-            <button class="btn-btn-teaser-link ; zooms">
+          </h2>
+          </div>
+          <div class="btn-teaser-link container">
+            <button class="btn-reco ; zooms">
               <a class="teaser-link" href="detail-post-list/detail-post.html"
                 >Modifier le post</a
               >
             </button>
-            <button class="btn-btn-teaser-link ; zooms" onclick="supprimerPost('post2')">
+            <button class="btn-reco ; zooms" onclick="supprimerPost('post2')">
               <a class="teaser-link" href="#"
                 >Supprimer le post</a
               >
+            </button>
           </div>
         </article>
 
-        <article class="teaser" id="post1">
-          <h3 class="teaser-title">
+        <article class="teaser box" id="post3">
+          <div class="container">
+          <h2 class="teaser-title">
             "Ma meilleure ennemie" : une chanson emblématique d’Arcane
-          </h3>
-          <img
-            class="teaser-image"
-            src="detail-post-list/ma_meilleure_ennemie.jpg"
-            height="300"
-            alt=""
-          />
-          <p class="teaser-excerpt">
-            Depuis sa sortie, la série Arcane a captivé le public par son
-            univers riche, son animation exceptionnelle et sa bande-son
-            inoubliable. Parmi les morceaux qui se démarquent, "Ma meilleure
-            ennemie" occupe une place particulière, capturant à la fois la
-            tension et l’intensité émotionnelle entre les deux protagonistes, Vi
-            et Jinx.
-          </p>
-          <div class="btn-teaser-link">
-            <button class="btn-btn-teaser-link ; zooms">
+          </h2>
+          </div>
+          <div class="btn-teaser-link container">
+            <button class="btn-reco ; zooms">
               <a class="teaser-link" href="detail-post-list/detail-post.html"
                 >Modifier le post</a
               >
             </button>
-            <button class="btn-btn-teaser-link ; zooms" onclick="supprimerPost('post1')">
+            <button class="btn-reco ; zooms" onclick="supprimerPost('post3')">
               <a class="teaser-link" href="#"
                 >Supprimer le post</a
               >
+            </button>
           </div>
         </article>
 
-        <article class="teaser" id="post1">
-          <h3 class="teaser-title">
+        <article class="teaser box" id="post4">
+          <div class="container">
+          <h2 class="teaser-title">
             The Inspector Cluzo : Une Tournée et un Nouvel Album qui Résonnent
             comme un Coup de Fouet Musical
-          </h3>
-          <img
-            class="teaser-image"
-            src="detail-post-list/inspector-cluzo.jpg"
-            height="300"
-            alt=""
-          />
-          <p class="teaser-excerpt">
-            Le duo français The Inspector Cluzo, composé de Laurent Lacrouts
-            (batterie, chant) et Mathieu Jaton (guitare, chant), revient sur le
-            devant de la scène avec un nouvel album explosif et une tournée qui
-            fait vibrer les foules. Ce groupe, connu pour son énergie
-            dévastatrice et son mélange unique de rock, blues et soul, ne cesse
-            d'étonner et de captiver son public, et cette nouvelle aventure
-            n'est pas différente.
-          </p>
-          <div class="btn-teaser-link">
-            <button class="btn-btn-teaser-link ; zooms">
+          </h2>
+          </div>
+          <div class="btn-teaser-link container">
+            <button class="btn-reco ; zooms">
               <a class="teaser-link" href="detail-post-list/detail-post.html"
                 >Modifier le post</a
               >
             </button>
-            <button class="btn-btn-teaser-link ; zooms" onclick="supprimerPost('post1')">
+            <button class="btn-reco ; zooms" onclick="supprimerPost('post4')">
               <a class="teaser-link" href="#"
                 >Supprimer le post</a
               >
