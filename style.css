@@ -279,7 +279,7 @@ form button:hover {
   color: #ffffff;
 }
 
-.btn-reco {
+.btn-btn-teaser-link {
   position: absolute;
   background-color: #f4a261;
   color: white;
@@ -291,7 +291,7 @@ form button:hover {
   transition: background-color 0.3s, transform 0.3s;
 }
 
-.btn-reco a {
+.btn-btn-teaser-link a {
   text-decoration: none;
   color: #ffffff;
 }
