@@ -265,18 +265,18 @@ form button:hover {
   font-size: 1.1em;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
+  justify-content:flex-end
 }
 
 .btn-reco a {
   text-decoration: none;
-  color: #e6e8ea;
+  color: #ffffff;
 }
 
-.zooms button {
+.zooms {
   transition: transform 0.3s ease-in-out; /* Animation fluide lors du zoom */
-  margin: 25px;
 }
 
-.zooms:hover button {
+.zooms:hover {
   transform: scale(1.1); /* Zoom sur l'image au survol */
 }
