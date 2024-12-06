@@ -272,7 +272,6 @@ form button:hover {
   font-size: 1em;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
-  justify-content: flex-end;
 }
 
 .btn-reco a {
@@ -286,4 +285,14 @@ form button:hover {
 
 .zooms:hover {
   transform: scale(1.1); /* Zoom sur l'image au survol */
+}
+
+.article-title {
+  font-size: 30px;
+}
+
+.article-title,
+.art-pic1 {
+  text-align: center;
+  margin: 50px;
 }
