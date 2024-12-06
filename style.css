@@ -18,10 +18,6 @@ body.dark-mode h3 {
   color: #e6e8ea;
 }
 
-body.dark-mode.cartes p h3 {
-  color: black;
-}
-
 .formulaie {
   color: black !important;
 }
