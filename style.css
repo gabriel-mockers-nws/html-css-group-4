@@ -262,10 +262,10 @@ form button:hover {
   position: absolute;
   background-color: #f4a261;
   color: white;
-  padding: 12px 20px;
+  padding: 9px 15px;
   border: 2px solid #f4a261;
   border-radius: 5px;
-  font-size: 1.1em;
+  font-size: 1em;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
   justify-content: flex-end;
