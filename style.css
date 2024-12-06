@@ -279,7 +279,7 @@ form button:hover {
   color: #ffffff;
 }
 
-.btn-btn-teaser-link {
+.teaser-link {
   position: relative;
   background-color: #f4a261;
   color: white;
@@ -289,11 +289,12 @@ form button:hover {
   font-size: 1em;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
-}
-
-.btn-btn-teaser-link a {
   text-decoration: none;
   color: #ffffff;
+}
+
+.teaser-link:hover {
+  transform: scale(1.1);
 }
 
 .zooms {
