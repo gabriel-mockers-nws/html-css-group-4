@@ -262,21 +262,37 @@ form button:hover {
   transform: scale(1.1); /* Zoom sur l'image au survol */
 }
 
-.btn-reco {
-  margin-top: 2rem;
-  background-color: #f4a261;
-  color: white;
+.btn-teaser-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn {
+  display: inline-block;
   padding: 9px 15px;
-  border: 2px solid #f4a261;
+  margin-top: 2rem;
   border-radius: 5px;
   font-size: 1em;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
+  border: 2px solid;
+  text-decoration: none;
 }
 
 .btn-reco {
-  text-decoration: none;
-  color: #ffffff;
+  color: white;
+  background-color: #f4a261;
+  border-color: #f4a261;
+}
+
+.btn-danger {
+  background-color: red;
+  border-color: red;
+  color: white;
+}
+
+.admin-row + .admin-row {
+  border-top: 1px solid #ccc;
 }
 
 .teaser-link {
